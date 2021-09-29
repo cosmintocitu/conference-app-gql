@@ -6,4 +6,4 @@ const helloWorldResolvers = {
     }
 };
 
-module.exports = helloWorldResolvers;
+module.exports = helloWorldResolvers; 
