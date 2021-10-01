@@ -1,6 +1,7 @@
 type Type{
     id: Int!
     name: String!
+    code: String
 }
 
 type Category{
@@ -42,4 +43,12 @@ input TypeInput {
   id: ID!
   name: String!
   code: String
+}
+
+extend type Query{
+    typeList:[Type!]!
+    categoryList:[Category!]!
+    countryList:[Country!]!
+    countyList:[County!]!
+    cityList:[City!]!
 }
