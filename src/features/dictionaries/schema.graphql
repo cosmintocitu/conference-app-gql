@@ -33,17 +33,6 @@ type Country{
     code: String
 }
 
-input CategoryInput {
-  id: ID!
-  name: String!
-  code: String
-}
-
-input TypeInput {
-  id: ID!
-  name: String!
-  code: String
-}
 
 extend type Query{
     typeList:[Type!]!
